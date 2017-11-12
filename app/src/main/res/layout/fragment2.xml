@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d7e0c7">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:text="Choose events' categories"
+        android:textAlignment="center"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:id="@+id/choose"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/music"
+        android:layout_margin="16dp"
+        android:layout_below="@id/choose"
+        android:background="@drawable/categories_background">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/musica"
+            android:layout_centerVertical="true"
+
+            android:layout_margin="24dp"
+            />
+        <!--android:src="@drawable/music"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/musica"
+            android:textSize="25sp"
+            android:text="Music"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="12dp"
+            android:id="@+id/textTab1"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="24dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/food"
+        android:layout_margin="16dp"
+        android:layout_below="@id/music"
+        android:background="@drawable/categories_background">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/fooda"
+            android:layout_centerVertical="true"
+
+            android:layout_margin="24dp"
+            />
+        <!--android:src="@drawable/button_foodtech_lime"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/fooda"
+            android:textSize="25sp"
+            android:text="Food"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="12dp"
+            android:id="@+id/textTab2"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="24dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/tech"
+        android:layout_margin="16dp"
+        android:layout_below="@id/food"
+        android:background="@drawable/categories_background">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/techa"
+            android:layout_centerVertical="true"
+
+            android:layout_margin="24dp"
+            />
+        <!--android:src="@drawable/icon_tech"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/techa"
+            android:textSize="25sp"
+            android:text="Tech"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="12dp"
+            android:id="@+id/textTab3"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="24dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/learning"
+        android:layout_margin="16dp"
+        android:layout_below="@id/tech"
+        android:background="@drawable/categories_background">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/learninga"
+            android:layout_centerVertical="true"
+
+            android:layout_margin="24dp"
+            />
+        <!--android:src="@drawable/learning"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/learninga"
+            android:textSize="25sp"
+            android:text="Learning"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="12dp"
+            android:id="@+id/textTab4"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="24dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/film"
+        android:layout_margin="16dp"
+        android:layout_below="@id/learning"
+        android:background="@drawable/categories_background">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/filma"
+            android:layout_centerVertical="true"
+
+            android:layout_margin="24dp"
+            />
+        <!--android:src="@drawable/film"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/filma"
+            android:textSize="25sp"
+            android:text="Films"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="12dp"
+            android:id="@+id/textTab5"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="24dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/book"
+        android:layout_margin="16dp"
+        android:layout_below="@id/film"
+        android:background="@drawable/categories_background">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/booka"
+            android:layout_centerVertical="true"
+
+            android:layout_margin="24dp"
+            />
+        <!--android:src="@drawable/books"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/booka"
+            android:textSize="25sp"
+            android:text="Book clubs"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="12dp"
+            android:id="@+id/textTab6"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="24dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/dance"
+        android:layout_margin="16dp"
+        android:layout_below="@id/book"
+        android:background="@drawable/categories_background">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/dancea"
+            android:layout_centerVertical="true"
+
+            android:layout_margin="24dp"
+            />
+        <!--android:src="@drawable/dance"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/dancea"
+            android:textSize="25sp"
+            android:text="Dance"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="12dp"
+            android:id="@+id/textTab7"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="24dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+</ScrollView>
