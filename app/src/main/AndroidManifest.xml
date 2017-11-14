@@ -47,7 +47,15 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".FriendsActivity" />
+        <activity 
+                  android:name=".FriendsActivity" />
+        
+        <!--
+            Тут будуть наші івенти
+        -->
+        <activity
+            android:name=".FbActivity" />
+        
     </application>
 
 </manifest>
