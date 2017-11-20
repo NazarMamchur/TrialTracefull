@@ -2,4 +2,5 @@
     <string name="app_name">Tutotial</string>
     <string name="title_activity_maps">Map</string>
     <string name="facebook_app_id">164131180850634</string>
+    <string name="fb_login_protocol_scheme">fb164131180850634</string>
 </resources>
